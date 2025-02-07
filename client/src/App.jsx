@@ -3,6 +3,7 @@ import Layout from "../Layout";
 import Home from "../src/pages/Home";
 import Ragistration from "../src/pages/Ragistration";
 import Login from "../src/pages/Login";
+import Dashboard from "./pages/Dashboard";
 
 
 
@@ -16,6 +17,7 @@ const App=()=>{
       <Route path="/home" element={<Home/>}/>
       <Route path="/ragistration" element={<Ragistration/>}/>
       <Route path="/login" element={<Login/>}/>
+      <Route path="/dashboard" element={<Dashboard/>}/>
 
 
       </Route>
